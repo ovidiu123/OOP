@@ -1,5 +1,5 @@
 from enum import Enum
-class StudyField(Enum): # STUDY FIELD ENUM
+class StudyField(Enum):
     MECHANICAL_ENGINEERING = 1
     SOFTWARE_ENGINEERING = 2
     FOOD_TECHNOLOGY = 3

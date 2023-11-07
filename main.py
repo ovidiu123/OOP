@@ -1,15 +1,13 @@
 from study_field import StudyField
-from student import Student
-from faculty import Faculty
+from student_faculty import Student
 from university import University
 
-if __name__ == "__main__":
+if __name__ == "__main__":                                     # MAIN PROGRAM LOOP
     print("WELCOME TO TUM'S STUDENT MANAGEMENT SYSTEM!")
 
     university = University()
 
     while True:
-
         print("\nChoose an option:")
         print("1 - General options")
         print("2 - Faculty operations")
@@ -146,7 +144,7 @@ if __name__ == "__main__":
                     print("Invalid choice.")
 
         elif choice == "3":
-            print("Exiting the program!!!!!!!!!")
+            print("Exiting the program!!!")
             break
 
         else:
